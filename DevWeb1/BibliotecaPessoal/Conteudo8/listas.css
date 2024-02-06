@@ -1,0 +1,25 @@
+body{
+    height: 100vh;/**/
+    background-color: #000000;/* Cor de fundo*/
+    box-sizing: border-box;/*Garante que os elementos filhos estejam sempre dentro dos elementos pais*/
+    color: #f6f6f6;/* Cor da fonte*/
+}
+.lista{
+    margin: 20px 0px 0px 0px;
+    /*list-style-type: url('qualquer.url'); Coloca qualquer imagem como marcador da lista*/
+}
+
+.lista1{
+    list-style-type: circle; /* Estiliza o marcador da lista*/
+    border: 2px dashed blue; /*Em ordem: Tamanho da borda Estilo da borda Cor da borda*/
+}
+.lista2{
+    list-style-type: square;
+    border: 2px double red;
+}
+.lista3{
+    list-style-type: upper-roman;
+}
+.lista4{
+    list-style-type: lower-alpha;
+}

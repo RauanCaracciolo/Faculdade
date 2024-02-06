@@ -1,0 +1,87 @@
+body {
+    animation: 10000ms ease-in-out infinite color-change;
+  }
+  
+  @keyframes color-change {
+    0% {
+      background-color: teal;
+    }
+    5% {
+      background-color: gold;
+    }
+    10% {
+      background-color: indianred;
+    }
+    15% {
+      background-color: violet;
+    }
+    20% {
+      background-color: green;
+    }
+    25% {
+      background-color: teal;
+    }
+    30% {
+        background-color: gold;
+      }
+      35% {
+        background-color: indianred;
+      }
+      40% {
+        background-color: violet;
+      }
+      45% {
+        background-color: green;
+      }
+      50% {
+        background-color: teal;
+      }
+      55% {
+        background-color: gold;
+      }
+      60% {
+        background-color: indianred;
+      }
+      65% {
+        background-color: violet;
+      }
+      70% {
+        background-color: green;
+      }
+      75% {
+        background-color: teal;
+      }
+      80% {
+        background-color: gold;
+      }
+      85% {
+        background-color: indianred;
+      }
+      90% {
+        background-color: violet;
+      }
+      95% {
+        background-color: green;
+      }
+      100% {
+        background-color: teal;
+      }      
+  }
+
+table{
+    border-collapse:collapse;/*Faz com que nao fique com borda dupla*/
+    width: 50%;
+    overflow-x: auto;/*Responsividade de diferentes tamanhos*/
+}
+tr:hover{
+    background-color: coral;
+}
+th{
+    height: 70px;/* Altura*/
+}
+th, td{
+    padding: 15px;/*Espacamento interno*/
+    border-bottom: 1px solid #ddd;/*Em ordem: Tamanho da borda Estilo da borda Cor da borda*/
+    text-align: center;/*Alinha o texto ao centro da tabela*/
+    vertical-align: bottom;/*Alinha o texto a parte de baixo da tabela*/
+}

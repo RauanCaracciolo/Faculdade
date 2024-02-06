@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post">
+        <label for="email">Email:</label><br>
+        <input type="email" name="email" id="email" required><br>
+        <label for="telefone">Telefone:</label><br>
+        <input type="tel" name="telefone" id="telefone" required><br>
+        <p>Selecione o Motivo do contato</p>
+        <input type="radio" id="voluntario" name="motivo">
+        <br><label for="voluntario">Voluntario</label>
+        <input type="radio" id="doacao" name="motivo"><br>
+        <label for="doacao">Doação</label>
+        <input type="radio" id="denuncia" name="motivo"><br>
+        <label for="denuncia">Denuncia</label>
+        <input type="radio" id="voluntariar" name="motivo">
+        <label for="doacao">Voluntariar</label><br>
+        <label for="texto">Digite abaixo um breve resumo do sobre sua solicitacao de contato:</label><br>
+        <input type="text" name="texto" id="texto"><br>
+        <input type="reset" name ="limpar" id="reset" value="Limpar">
+        <input type="submit" name="enviar" id="submit" value="Enviar">
+    </form>
+</body>
+</html>

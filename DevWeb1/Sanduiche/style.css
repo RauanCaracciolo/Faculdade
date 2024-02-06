@@ -1,0 +1,33 @@
+.menu{
+    display: flex;
+    flex-direction: row;
+    background-color: gray;
+    text-align: center;
+}
+.menu_check{
+    display: none;
+}
+.menu_checkLabel{
+    display: none;
+}
+
+@media screen and (max-width: 900px) {
+    .menu{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:600px){
+
+    .menu_checkLabel{
+        display: inline;
+    }
+    .menu_checkLabel:hover{
+        cursor: pointer;
+    }
+    .menu_link{
+        display: none;
+    }
+    .menu_check:checked ~ .menu_link{
+        display: inline;
+    }
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="post">
+        <label for="marca">Marca:</label><br>
+        <input type="text" name="marca" maxlength="10"><br>
+        <label for="combustivel">Combustivel</label><br>
+        <input type="checkbox" name="alcool">
+        <label for="alcool">Alcool</label>
+        <input type="checkbox" name="gasolina">
+        <label for="gasolina">Gasolina</label><br>
+        <label for="motor">Motor:</label><br>
+        <input type="radio" name="motor" id="v.1">
+        <label for="v.1">1.0</label>
+        <input type="radio" name="motor" id="v1.6">
+        <label for="v1.6">1.6</label>
+        <input type="radio" name="motor" id="v.2">
+        <label for="v2">2.0</label><br>
+        <label for="cambio">Cambio</label><br>
+        <input type="radio" name="cambio" id="automatico">
+        <label for="automatico">Automatico</label>
+        <input type="radio" name="cambio" id="manual">
+        <label for="manual">Manual</label><br>
+        <label for="descricao">Descrição</label><br>
+        <input type="text" name="descricao"><br>
+        <label for="fabricacao">Data de fabricação:</label><br>
+        <input type="date" min="1990-01-01" name="fabricacao" id="fabricacao"><br>
+        <label for="aquisicao">Data e Hora da aquisição do veiculo:</label><br>
+        <input type="date" name="aquisicao" id="aquisicao" min="2000-01-01" max="2023-04-28"><br>
+        <label for="semana">Semana da aquisição do veiculo:</label><br>
+        <input type="date" min="2000-01-01" id="semana" name="semana"><br>
+        <label for="preco">Preço unitario:</label><br>
+        <input type="number" id="preco" name="preco"><br>
+        <label for="email">Email do Usuario para contato:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <input type="reset" value="Limpar">
+        <input type="submit"  value="Enviar">
+    </form>
+</body>
+</html>

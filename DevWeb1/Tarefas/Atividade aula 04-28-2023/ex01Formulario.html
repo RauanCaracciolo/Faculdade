@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="post">
+        <label for="nome">Nome:</label> <br>
+        <input type="text" id="nome"  name="nome" required><br>
+        <label for="senha">Senha:</label><br>
+        <input type="password" id="senha"  name="senha" max="10" required><br>
+        <p>Envie uma foto sua*</p>
+        <input type="file" id="foto" name="foto" accept=".jpg,.jpeg,.png" required><br>
+        <p>Envie um video seu</p>
+        <input type="file" id="video" name="video" accept=".mp4,.mov"><br>
+        <label for="interesses">Interesses</label><br>
+        <input type="checkbox" id="Videogames" name="interesses" value="Videogames">
+        <label for="Videogames">Video games</label><br>
+        <input type="checkbox" id="Cardgames" name="interesses" value="Cardgames">
+        <label for="Cardgames">Card games</label><br>
+        <input type="checkbox" id="Boardgames" name="interesses" value="Boardgames">
+        <label for="Boardgames">Board games</label><br>
+        <p>Deseja receber atualizações por e-mail?</p>
+        <input type="radio" name="email" id="quero" value="quero">
+        <label for="quero">Sim</label>
+        <input type="radio" name="email" id="naoQuero" value="naoQuero">
+        <label for="naoQuero">Não</label><br><br>
+        <input type="reset" value="limpar">
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

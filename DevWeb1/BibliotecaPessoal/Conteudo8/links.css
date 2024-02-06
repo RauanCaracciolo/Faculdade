@@ -1,0 +1,36 @@
+a:link{ /* Se for um link*/
+    color: red;
+}
+a:visited{ /* Se ja tiver sido visitado*/
+    color: green;
+}
+a:hover{ /* Se o mouse tiver passando em cima*/
+    color: brown;
+}
+a:active{ /* Se estiver sendo clicado*/
+    color: Blue;
+}
+.linku:link{ /* Link em formato Botão*/
+    background-color: rgb(155, 210, 155);
+    color: white;
+    border: 2px solid black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+.linku:visited{
+    color: #0000ff;
+}
+.linku:hover{
+    color: white;
+    background-color: blue;
+}
+.linkdo:link{
+    color: #ff0000;
+}
+.linkdo:visited{
+    color: #d7e32d;
+}
+.linkdo:hover{
+    font-size: 150%; /*Aumenta a fonte*/
+}
